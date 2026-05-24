@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Preload imagens de fundo para melhorar LCP -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="[object Object]" />
+          <meta name="keywords" content="[object Object]" />
+          <meta name="robots" content="index, follow">
+          <meta http-equiv="Content-Language" content="es">
+  <script type="application/json" id="adsx_info">{"url":"https://uniplace.net/vizinex","affiliate_link":"https://www.cpgtshop4.com/uv1p/","platformTracking":"","platformSource":"CPAgetti","type":"cookie","product_name":"Vizinex","language":"es","created_at":"2026-05-24T11:47:06.607Z","unique_id":"XUJQJ1CS_1779623222568_wci4sr"}</script>
+  <title>Vizinex</title>
+  <style>
+    /* Estilos gerais */
+  body, html {
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+
+    /* Background div occupies full viewport height */
+    .background {
+      height: 100vh; /* Full viewport height */
+      background-size: cover;
+      background-repeat: no-repeat;
+      z-index: -1; /* Keeps it behind other content */
+      position: relative; /* Changed from absolute to relative for normal flow */
+      width: 100%;
+    }
+    /* Overlay para melhorar LCP */
+    .background::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.45);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* Centralize the modal on the screen */
+    .modal {
+      border: 2px solid #ffffff;
+      padding: 40px;
+      max-width: 80%;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+      text-align: left;
+      width: 700px;
+      position: fixed; /* Keeps modal centered in viewport */
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); /* Centers it perfectly */
+      z-index: 1; /* Above background but below other content if needed */
+    }
+
+    /* SEO content appears after scrolling; fundo só quando .seo (evita cinza vazio) */
+    .seo {
+      margin-top: 100vh; /* Starts after the background height */
+      padding: 20px;
+      background-color: #e0e0e0; /* For visibility */
+      color: var(--color-gray, #e0e0e0);
+    }
+
+    /* Mobile: até 767px (breakpoint padrão Elementor/WordPress) */
+    @media (max-width: 767px) {
+      .background {
+        background-image: url("data:image/webp;base64,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");
+      }
+      .modal {
+        width: 250px;
+      }
+    }
+
+    /* Tablet: 768px até 1024px (breakpoint padrão Elementor/WordPress) */
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .background {
+        background-image: url("data:image/webp;base64,UklGRsYJAABXRUJQVlA4WAoAAAAgAAAA/wIA/wMASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZWUDgg2AcAABC0AJ0BKgADAAQ+nU6lTiWko6IgKACwE4lpbuF3YRvblav707Hq/zm2AZ4Rwn+fd2F+747KY//y/KD82/9b3CP1Q/33BJAB6IEJgaVdA7dQMj4HbcfWFh24O7c6DtuBHKB25Hm91ERcnIe+2TkPfbJyHvtk5D32xwHEz+UK7gy+dgYAv2cZUA8LqtIEA02vZgBY6uwcILtKgWS7Xi5OQ99snIe+2TkWPiKWlQLJdrxcnIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32xwAAD++qS7QjMjsHF+8Z4f3ESavpx2nfsSUfB7jjueHCQ//YFNZubu//yLVeghcdcN47G5RuWLLsrEOOxk3ofF5qO1GmezdnpyKGy0mpTiPQaD08dOt1X+KxgoXXYT48Uclr/GPaA6+nmKET5M7rAppC3ToZQH59lArjwpauamZgxPfQ+TE9Oz7Hy71i6y4KK2ZZNAH/Shf7M7+PkdT7GZidv6IE0zXsyzR9VrnhH8R9nwCMlplX6pn+XEh15/OS8VSndSC+f9XOY277FFyaDGzbD/KEP+wp8bRr3h1ljJ7Qm+nzMBb/vKSKEHvCiTQkkTOsIpIquz8geoLEX8VTtEVcP+Ft+Wvo6lRKI5xOlw7hF4a7hGpi66m+mbIN1GvYCZWyuA6td+ZcHrdK87wS+DE5B9rirPooyWoJMLSTecxe///JBIhdHyJbILtQ/DjZvdBWBSJ1HDvLezuAlDe+zXorQnXdQB56zC7a2hjDgSmIobrbf+MvK/1grCVsoMtQNuc/Mu5tlQZTqnLb0iodspJ338rZ9r+wpvaRwZn757TV0qfoK5zDrRfw3SIN4zv9PluMNmqPOTe+PAb5ED1nymPun9m69BpoaykuelNzg6i5q/xuIrRBZVo/8Q8aKPn7cjiV5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=");
+      }
+      .modal {
+        width: 500px;
+      }
+    }
+
+    /* Desktop: acima de 1024px (breakpoint padrão Elementor/WordPress) */
+    @media (min-width: 1025px) {
+      .background {
+        background-image: url("data:image/webp;base64,UklGRtISAABXRUJQVlA4WAoAAAAgAAAAfwcANwQASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZWUDgg5BAAANDFAZ0BKoAHOAQ+nU6lTiWko6IgCACwE4lpbuF3YRvblav707Hq/zm2AZ4Rwn+fd2F+747KY//y/KD82/9b3CP1Q/33BJAB6IEJgaVdA7dQMj4HbcfWFh24O7c6DtuBHKB25Hm91ERcnIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99scBxM/lCu4MvnYGAL9nGVAPC6rSBANNr2YAWOrsHCC7SoFku14uTkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZORY+IpaVAsl2vFych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOQ99snIe+2TkPfbJyHvtk5D32ych77ZOP4AD++qS7QjMjsHF+8Z4f3ESavpx2nfsSUfB7jjueHCQ//YFNZubu//yLVeghcdcN47G5RuWLLsrEOOxk3ofF5qO1GmezdnpyKGy0mpTiPQaD08dOt1X+KxgoXXYT48Uclr/GPaA6+nmKET5M7rAppC3ToZQH59lArjwpauamZgxPfQ+TE9Oz7Hy71i6y4KK2ZZNAH/Shf7M7+PkdT7GZidv6IE0zXsyzR9VrnhH8R9nwCMlplX6pn+XEh15/OS8VSndSC+f9XOY277FFyaDGzbD/KEP+wp8bRr3h1ljJ7Qm+nzMBb/vKSKAAA7/XVWIl4bLZcDWmX50gXqCxF/FU7RFXD/hbflr6OpUSiOcTpcO4ReGu4RqYuupvpmyDdRr2AmVsrgOrXfmXB63SvO8EvgxOQfa4qz6KMlqCTC0k3nMXv//yQSIXR8iWyC7UPw42b3QVgUidRw7y3s7gJQ3vs16K0J13UAeeswu2toYw4EpiKG623/jLyv9YKwlbKDLUDbnPzLubZUGU6py29IqHbKSd9/K2fa/sKb2kcGZ++e01dKn6Cucw60X8N0iDeM7/T5bjDZqjzk3vjwG+RA9Z8pj7p/ZuvQaaGspLnpTc4Oouav8biK0QWVaP/EPGij5+3I4leQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=");
+      }
+      .modal{
+        width: 700px;
+      }
+    }
+
+    
+
+    /* Botão de fechar no canto superior direito */
+    .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 1.5em;
+      cursor: pointer;
+    }
+
+    .modal h2 {
+      margin: 0 0 10px;
+      font-size: 1.75rem;
+    }
+
+    .modal p {
+      font-size: 1em;
+      margin-bottom: 20px;
+    }
+
+    .afiliate-link {
+      margin-top: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+      text-decoration: none;
+      padding: 9px 15px 10px 15px;
+    }
+
+    .afiliate-link-close {
+        margin-top: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        text-decoration: none;
+        padding: 9px 15px 10px 15px;
+    }
+
+
+    .buttons{
+      display: flex;
+      gap: .6rem;
+    }
+    .disclaimer {
+      font-size: .7rem;
+    /* font-size: 0.8em; */
+    text-align: center;
+    }
+  </style>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17707306907"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17707306907');
+</script><script>function click() {
+      document.getElementById("goToPage").click();
+    }</script>
+  
+</head>
+
+<body>
+  <div class="background" id="background"></div>
+   <main role="main">
+    <div class="modal" id="clicable" style="background-color: #c2c6cb;">
+      <button class="close-btn" type="button" style="color: #333333; background-color: transparent; border: none;">×</button>
+      <h2>Política de cookies</h2>
+      <p>Este sitio web utiliza cookies para personalizar el contenido y anuncios, proporcionar funcionalidades de redes sociales y analizar nuestro tráfico. Al aceptar, usted acepta el uso de cookies. Para más información, visite nuestro <span style="color: #0001ff;">Política de cookies</span>.</p>
+      <div class="buttons">
+        <button type="button" class="afiliate-link" style="background-color: #0043ff; color: #ffffff; border: none;">Aceptar</button>
+        <button type="button" class="afiliate-link-close" style="background-color: #c2c6cb; color: #0011ff; border: 0.8px solid #0011ff;">Rechazar</button>
+      </div>
+    </div>
+  </main>
+  <a id="goToPage" aria-label="go to your page" href="https://www.cpgtshop4.com/uv1p/" data-mxhref="1"></a>
+  <div class="seo" id="seo"><h1>¿Cansado de no ver resultados? Descubre el <strong>método definitivo para perder peso</strong> de forma natural</h1>
+
+<h2>El problema real: ¿Por qué las dietas tradicionales siempre fallan?</h2>
+<p>Si has intentado seguir planes de alimentación restrictivos sin éxito, no es tu culpa. La mayoría de los métodos ignora el <strong>metabolismo lento</strong> y los desequilibrios hormonales. Este <strong>sistema de pérdida de peso</strong> ataca la raíz del problema, permitiéndote quemar grasa sin pasar hambre.</p>
+
+<h2>La solución: Un enfoque científico para transformar tu cuerpo</h2>
+<p>Nuestra propuesta se basa en un <strong>protocolo de nutrición avanzada</strong> diseñado para activar la quema de grasas de forma constante. Al integrar este <strong>plan de adelgazamiento efectivo</strong> en tu rutina diaria, experimentarás una mejora significativa en tus niveles de energía y salud metabólica.</p>
+
+<h3>Beneficios clave de este programa de transformación física:</h3>
+<ul>
+    <li>Activación metabólica acelerada para resultados visibles desde la primera semana.</li>
+    <li>Estrategias para <strong>eliminar la grasa localizada</strong> de forma segura.</li>
+    <li>Acceso a un método validado por expertos en <strong>bienestar y nutrición saludable</strong>.</li>
+</ul>
+
+<h2>¿Por qué este es el mejor programa de salud disponible hoy?</h2>
+<p>A diferencia de los suplementos genéricos, este <strong>método de salud integral</strong> ofrece una guía paso a paso. Es la solución ideal para quienes buscan <strong>mejorar su composición corporal</strong> sin recurrir a procedimientos costosos o ejercicios extenuantes que no producen resultados a largo plazo.</p>
+
+<h3>Toma el control de tu transformación hoy mismo</h3>
+<p>No permitas que el estancamiento te detenga. Únete a miles de personas que han logrado alcanzar su peso ideal utilizando este <strong>sistema comprobado de control de peso</strong>. Es momento de priorizar tu bienestar y comenzar el camino hacia una vida más sana y activa.</p></div>
+  <script>
+    document.getElementById("clicable").addEventListener("click", function (e) {
+      e.stopPropagation();
+      click();
+    });
+  </script>
+  
+  <div class="disclaimer" style="color: #666666;"></div>
+</body>
+
+</html>
