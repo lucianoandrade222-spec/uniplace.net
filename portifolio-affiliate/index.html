@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script type="application/json" id="adsx_info">{"url":"https://uniplace.net/portifolio-affiliate","affiliate_link":"","platformTracking":"","platformSource":"","type":"external","product_name":"Hume Band","language":"pt-BR","created_at":"2026-08-03T20:53:23.632Z","unique_id":"1785790403625_ezbtou24"}</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17707306907"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17707306907');
+</script>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luciano — Affiliate Marketing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#101E1A;
+    --ink-2:#16261F;
+    --paper:#E7DFC9;
+    --gold:#C89B3C;
+    --sage:#7C9B7E;
+    --text:#F2EEDF;
+    --text-muted:#9FAB9C;
+    --line: rgba(242,238,223,0.14);
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--ink);
+    color:var(--text);
+    font-family:'IBM Plex Sans', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:920px; margin:0 auto; padding:0 28px;}
+
+  /* ---------- Hero ---------- */
+  header.hero{
+    padding:88px 0 64px;
+    border-bottom:1px solid var(--line);
+    background:
+      radial-gradient(600px 300px at 85% -10%, rgba(200,155,60,0.10), transparent 70%),
+      var(--ink);
+  }
+  .eyebrow{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    letter-spacing:0.16em;
+    text-transform:uppercase;
+    color:var(--gold);
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:22px;
+  }
+  .eyebrow::before{
+    content:"";
+    width:7px; height:7px; border-radius:50%;
+    background:var(--gold);
+    box-shadow:0 0 0 3px rgba(200,155,60,0.18);
+  }
+  h1{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    font-size:clamp(38px, 6vw, 58px);
+    line-height:1.05;
+    margin:0 0 20px;
+    letter-spacing:-0.01em;
+  }
+  h1 em{
+    font-style:italic;
+    color:var(--sage);
+  }
+  .lede{
+    font-size:18px;
+    line-height:1.6;
+    color:var(--text-muted);
+    max-width:56ch;
+    margin:0;
+  }
+  .stat-row{
+    display:flex;
+    gap:36px;
+    margin-top:44px;
+    flex-wrap:wrap;
+  }
+  .stat{
+    font-family:'IBM Plex Mono', monospace;
+  }
+  .stat .n{
+    display:block;
+    font-size:26px;
+    color:var(--paper);
+    font-weight:500;
+  }
+  .stat .l{
+    display:block;
+    font-size:12px;
+    color:var(--text-muted);
+    margin-top:4px;
+    letter-spacing:0.04em;
+  }
+
+  /* ---------- Section shell ---------- */
+  section{padding:64px 0;}
+  section.divider{border-bottom:1px solid var(--line);}
+  .section-head{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    margin-bottom:36px;
+    gap:20px;
+    flex-wrap:wrap;
+  }
+  h2{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    font-size:26px;
+    margin:0;
+  }
+  .section-note{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    color:var(--text-muted);
+    letter-spacing:0.04em;
+  }
+
+  /* ---------- Ledger (signature element) ---------- */
+  .ledger{
+    border-top:1px solid var(--line);
+  }
+  .entry{
+    border-bottom:1px solid var(--line);
+    padding:26px 0;
+  }
+  .entry-row{
+    display:grid;
+    grid-template-columns:1fr auto auto;
+    align-items:baseline;
+    gap:18px;
+    cursor:default;
+  }
+  .entry-name{
+    font-family:'Fraunces', serif;
+    font-size:21px;
+    font-weight:500;
+  }
+  .entry-date{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:12px;
+    color:var(--text-muted);
+    white-space:nowrap;
+  }
+  .tag{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    color:var(--sage);
+    border:1px solid rgba(124,155,126,0.4);
+    padding:4px 10px;
+    border-radius:2px;
+    white-space:nowrap;
+  }
+  .entry-body{
+    margin-top:14px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:24px;
+  }
+  .entry-body p{
+    margin:0;
+    font-size:14.5px;
+    line-height:1.65;
+    color:var(--text-muted);
+  }
+  .entry-body .label{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    color:var(--gold);
+    display:block;
+    margin-bottom:8px;
+  }
+  @media (max-width: 640px){
+    .entry-row{grid-template-columns:1fr; gap:8px;}
+    .entry-body{grid-template-columns:1fr; gap:16px;}
+  }
+
+  /* ---------- Expertise grid ---------- */
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:1px;
+    background:var(--line);
+    border:1px solid var(--line);
+  }
+  .cell{
+    background:var(--ink);
+    padding:26px 28px;
+  }
+  .cell h3{
+    font-family:'Fraunces', serif;
+    font-weight:500;
+    font-size:17px;
+    margin:0 0 10px;
+    color:var(--paper);
+  }
+  .cell p{
+    margin:0;
+    font-size:14px;
+    line-height:1.6;
+    color:var(--text-muted);
+  }
+  @media (max-width: 640px){
+    .grid{grid-template-columns:1fr;}
+  }
+
+  /* ---------- Footer ---------- */
+  footer{
+    padding:48px 0 64px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:16px;
+  }
+  footer .name{
+    font-family:'Fraunces', serif;
+    font-size:16px;
+    color:var(--paper);
+  }
+  footer a{
+    color:var(--gold);
+    text-decoration:none;
+    font-family:'IBM Plex Mono', monospace;
+    font-size:13px;
+    border-bottom:1px solid rgba(200,155,60,0.4);
+  }
+  footer a:hover{border-color:var(--gold);}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Affiliate Marketing · Brazil</div>
+    <h1>Luciano builds pages<br>that <em>turn search</em><br>into commission.</h1>
+    <p class="lede">Active affiliate since November 2025, specializing in product pages, comparison content, and seasonal demand capture for the Brazilian market.</p>
+    <div class="stat-row">
+      <div class="stat"><span class="n">3</span><span class="l">published campaigns</span></div>
+      <div class="stat"><span class="n">2025—</span><span class="l">ongoing operation</span></div>
+      <div class="stat"><span class="n">MELI</span><span class="l">primary product channel</span></div>
+    </div>
+  </div>
+</header>
+
+<section class="divider">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Campaign ledger</h2>
+      <span class="section-note">CASE STUDIES</span>
+    </div>
+    <div class="ledger">
+
+      <div class="entry">
+        <div class="entry-row">
+          <span class="entry-name">Traje CazéTV — t-shirts</span>
+          <span class="entry-date">Nov/2025</span>
+          <span class="tag">Product · Trend</span>
+        </div>
+        <div class="entry-body">
+          <p><span class="label">Strategy</span>Spotted a search spike around the "Traje CazéTV" brand during the World Cup and built a product page connecting that cultural moment to the t-shirt line, curating 4 SKUs with real lifestyle photos.</p>
+          <p><span class="label">Execution</span>Contextual copy about the CazéTV phenomenon, a page structure optimized for fast decision-making, and individual affiliate links per product variant.</p>
+        </div>
+      </div>
+
+      <div class="entry">
+        <div class="entry-row">
+          <span class="entry-name">Father's Day — gift curation</span>
+          <span class="entry-date">2025</span>
+          <span class="tag">Seasonal</span>
+        </div>
+        <div class="entry-body">
+          <p><span class="label">Strategy</span>Seasonal page pulling together Mercado Livre products across different price ranges, timed to the purchase-intent spike ahead of the holiday.</p>
+          <p><span class="label">Execution</span>Budget-based curation, direct copy focused on gift decisions, and a visual layout built for fast browsing across categories.</p>
+        </div>
+      </div>
+
+      <div class="entry">
+        <div class="entry-row">
+          <span class="entry-name">Oura Ring vs iRingo Pro</span>
+          <span class="entry-date">2025</span>
+          <span class="tag">Brand SEO</span>
+        </div>
+        <div class="entry-body">
+          <p><span class="label">Strategy</span>Identified high search volume around the Oura Ring brand — a category I'm not affiliated with — and produced a technical comparison page to capture that organic traffic and route it to the partner program I'm affiliated with.</p>
+          <p><span class="label">Execution</span>Bilingual content (EN-US and PT), feature-by-feature comparison, and a direct-checkout CTA tailored to the partner's quantity-based pricing.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Areas of work</h2>
+      <span class="section-note">EXPERTISE</span>
+    </div>
+    <div class="grid">
+      <div class="cell">
+        <h3>Niche and trend research</h3>
+        <p>Tracking products and cultural moments with search spikes to get ahead of high-conversion campaigns.</p>
+      </div>
+      <div class="cell">
+        <h3>Conversion pages</h3>
+        <p>Building product landing pages and review/comparison pages optimized for purchase decisions.</p>
+      </div>
+      <div class="cell">
+        <h3>SEO and brand traffic capture</h3>
+        <p>Comparative content strategies that capture searches for competing brands and route them to the active affiliate program.</p>
+      </div>
+      <div class="cell">
+        <h3>Program and commission management</h3>
+        <p>Own tracking system for subscriptions, campaigns, and commissions across affiliate programs, with per-campaign ROI monitoring.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:16px; width:100%;">
+    <span class="name">Luciano</span>
+    <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a>
+  </div>
+</footer>
+
+</body>
+</html>
